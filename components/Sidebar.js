@@ -1,7 +1,7 @@
 import { useSession } from 'next-auth/client'
 import React from 'react'
 import {ChevronDownIcon,ShoppingBagIcon,UserGroupIcon,} from "@heroicons/react/outline"
-import {CalenderIcon,ClockIcon,CLockIcon,DesktopComputerIcon,UsersIcon} from "@heroicons/react/solid"
+import {ClockIcon,CLockIcon,DesktopComputerIcon,UsersIcon} from "@heroicons/react/solid"
 import SidebarRow from './SidebarRow'
 
 function Sidebar() {
@@ -18,7 +18,6 @@ function Sidebar() {
             <SidebarRow Icon={UserGroupIcon} title="Groups"/>
             <SidebarRow Icon={ShoppingBagIcon} title="Marketplaces"/>
             <SidebarRow Icon={DesktopComputerIcon} title="Watch"/>
-            <SidebarRow Icon={CalenderIcon} title="Events"/>
             <SidebarRow Icon={ClockIcon} title="Memories"/>
             <SidebarRow Icon={ChevronDownIcon} title="See More"/>
         </div>
